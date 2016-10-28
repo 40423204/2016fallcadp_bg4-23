@@ -22,7 +22,3 @@
 	path = 40423254
 	url = http://github.com/40423254/2016fallcadp_hw
 	branch = gh-pages
-[submodule "2016fallcadp_bg4"]
-	path = 2016fallcadp_bg4
-	url = http://github.com/40423204/2016fallcadp_bg4
-	branch = gh-pages
