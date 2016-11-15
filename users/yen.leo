@@ -52,8 +52,8 @@
 <v t="leo.20161014111031.23"><vh>高效執行力</vh></v>
 </v>
 </v>
-<v t="leo.20161014111031.24" a="E"><vh>電腦輔助設計課程內涵</vh>
-<v t="leo.20161014111031.25" a="E"><vh>電腦輔助設計課程內涵</vh>
+<v t="leo.20161014111031.24"><vh>電腦輔助設計課程內涵</vh>
+<v t="leo.20161014111031.25"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161014111031.26"><vh>CAD 教學主題</vh></v>
 </v>
 <v t="leo.20161014111031.27"><vh>Github pages 網頁</vh>
@@ -72,7 +72,7 @@
 <v t="leo.20161014111031.36"><vh>Flask 網際程式</vh></v>
 </v>
 </v>
-<v t="leo.20161014111031.37" a="E"><vh>Windows 環境下可攜環境</vh>
+<v t="leo.20161014111031.37"><vh>Windows 環境下可攜環境</vh>
 <v t="leo.20161014111031.38" a="E"><vh>下載 miniconda 可攜環境</vh>
 <v t="leo.20161014111031.39"><vh>下載可攜程式環境</vh></v>
 </v>
@@ -1102,7 +1102,7 @@ make.start()
 ### 2016fallcadp_bg4
 
 &lt;small&gt;
-Created by [2016fallcadp_bg4](https://40423206.github.io/2016fallcadp_bg4/blog/)
+Created by [2016fallcadp_bg4](https://40423204.github.io/2016fallcadp_bg4/blog/)
 &lt;/small&gt;
 
 [乙班電腦輔助設計實習課程網誌](https://mdecourse.github.io/2016fallcadpb/blog)
