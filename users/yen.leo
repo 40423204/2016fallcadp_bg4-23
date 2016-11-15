@@ -113,7 +113,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -258,15 +258,91 @@ DEFAULT_DATE = 'fs'</t>
 <t tx="leo.20161013190948.1">@language html
 &lt;!doctype html&gt;
 &lt;html lang="en"&gt;
-&lt;title&gt;
-redirecting ....
-&lt;/title&gt;
-&lt;head&gt;
-&lt;meta http-equiv="refresh" content="0; url=https://mdecourse.github.io/2016fallcadpa/" /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;</t>
+
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+
+		&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+
+		&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+		&lt;meta name="author" content="Hakim El Hattab"&gt;
+
+		&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+		&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+
+		&lt;!-- Theme used for syntax highlighting of code --&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+		&lt;!-- Printing and PDF exports --&gt;
+		&lt;script&gt;
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		&lt;/script&gt;
+
+		&lt;!--[if lt IE 9]&gt;
+		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+		&lt;![endif]--&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+		&lt;div class="reveal"&gt;
+
+			&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+			&lt;div class="slides"&gt;
+				&lt;section&gt;
+					&lt;h1&gt;2016Fall CADPB 計算機程式課程&lt;/h1&gt;
+					&lt;h3&gt;&lt;/h3&gt;
+					&lt;p&gt;
+						&lt;small&gt;Created by 40423212&lt;/small&gt;
+					&lt;/p&gt;
+                    &lt;a href="40423204/blog/index.html"&gt;blog04&lt;/a&gt;
+                    &lt;a href="40423221/blog/index.html"&gt;blog21&lt;/a&gt;
+                    &lt;a href="40423228/blog/index.html"&gt;blog28&lt;/a&gt;
+                    &lt;a href="40423243/blog/index.html"&gt;blog43&lt;/a&gt;
+                    &lt;a href="40423253/blog/index.html"&gt;blog53&lt;/a&gt;
+                    &lt;a href="40423254/blog/index.html"&gt;blog54&lt;/a&gt;
+				&lt;/section&gt;
+
+				
+		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+
+		&lt;script&gt;
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		&lt;/script&gt;
+
+	&lt;/body&gt;
+&lt;/html&gt;
+</t>
 <t tx="leo.20161014111031.1">@language xml
 @tabwidth -4
 @others
