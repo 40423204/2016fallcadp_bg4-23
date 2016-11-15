@@ -20,13 +20,13 @@
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="leo.20161013190948.1"><vh>@@edit index.html</vh></v>
-<v t="leo.20161014111031.1"><vh>@clean index.html</vh>
+<v t="leo.20161014111031.1" a="E"><vh>@clean index.html</vh>
 <v t="leo.20161014111031.2" a="E"><vh>html</vh>
 <v t="leo.20161014111031.3"><vh>head</vh></v>
 <v t="leo.20161014111031.4" a="E"><vh>body</vh>
 <v t="leo.20161014111031.5" a="E"><vh>reveal div</vh>
 <v t="leo.20161014111031.6" a="E"><vh>slides div</vh>
-<v t="leo.20161014111031.7"><vh>封面投影片</vh>
+<v t="leo.20161014111031.7" a="E"><vh>封面投影片</vh>
 <v t="leo.20161014111031.8"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20161014111031.9"><vh>三大主題教學</vh>
@@ -93,7 +93,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
+<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -113,7 +113,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -705,16 +705,14 @@ make.start()
 <t tx="leo.20161014111031.8">## 2016Fall 電腦輔助設計實習課程
 
 ### 虎科大機械設計工程系
+### 設計二乙
+### 2016fallcadp_bg4
 
 &lt;small&gt;
-Created by [kmolab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [2016fallcadp_bg4](https://40423206.github.io/2016fallcadp_bg4/blog/)
 &lt;/small&gt;
 
-[甲班電腦輔助設計實習課程網誌](blog/index.html)
-
 [乙班電腦輔助設計實習課程網誌](https://mdecourse.github.io/2016fallcadpb/blog)
-
-[Vimeo 上課影片](https://vimeo.com/user24079973/videos)
 </t>
 <t tx="leo.20161014111031.9">&lt;section&gt;
 @others
