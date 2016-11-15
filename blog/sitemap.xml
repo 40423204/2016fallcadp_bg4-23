@@ -5,35 +5,51 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
+<<<<<<< HEAD
 <lastmod>2016-11-16T01:44:36-00:00</lastmod>
+=======
+<lastmod>2016-11-16T00:59:26-00:00</lastmod>
+>>>>>>> 47d9854c08615dc225c8f94d15d8ed170275271d
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-11-16T01:44:36-00:00</lastmod>
+=======
+<lastmod>2016-11-16T00:59:26-00:00</lastmod>
+>>>>>>> 47d9854c08615dc225c8f94d15d8ed170275271d
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-11-16T01:44:36-00:00</lastmod>
+=======
+<lastmod>2016-11-16T00:59:26-00:00</lastmod>
+>>>>>>> 47d9854c08615dc225c8f94d15d8ed170275271d
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-11-16T01:44:36-00:00</lastmod>
+=======
+<lastmod>2016-11-16T00:59:26-00:00</lastmod>
+>>>>>>> 47d9854c08615dc225c8f94d15d8ed170275271d
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about-bg4/</loc>
-<lastmod>2016-11-15T23:39:51+08:00</lastmod>
+<lastmod>2016-11-16T00:41:40+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,7 +76,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/chuang-zao-li.html</loc>
+<loc>./tag/biao-da-neng-li.html</loc>
 <lastmod>2016-09-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -81,8 +97,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/shi-yong-dao-yin.html</loc>
 <lastmod>2016-10-22T12:00:00+08:06</lastmod>
+=======
+<loc>./tag/chuang-zao-li.html</loc>
+<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+>>>>>>> 47d9854c08615dc225c8f94d15d8ed170275271d
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
