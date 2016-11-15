@@ -29,7 +29,7 @@
 <v t="leo.20161014111031.7" a="E"><vh>封面投影片</vh>
 <v t="leo.20161014111031.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161014111031.9"><vh>三大主題教學</vh>
+<v t="leo.20161014111031.9" a="E"><vh>三大主題教學</vh>
 <v t="leo.20161014111031.10" a="E"><vh>主題教學</vh>
 <v t="leo.20161014111031.11"><vh>電腦輔助設計在教什麼?</vh></v>
 </v>
@@ -52,7 +52,7 @@
 <v t="leo.20161014111031.23"><vh>高效執行力</vh></v>
 </v>
 </v>
-<v t="leo.20161014111031.24"><vh>電腦輔助設計課程內涵</vh>
+<v t="leo.20161014111031.24" a="E"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161014111031.25" a="E"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161014111031.26"><vh>CAD 教學主題</vh></v>
 </v>
@@ -113,24 +113,11 @@
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
-<v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
-<v t="yen.20161022132258.1"><vh>移除子模組</vh>
-<v t="yen.20161022132307.1" a="E"><vh>@path ./../</vh>
-<v t="yen.20161022132317.1"><vh>@edit .gitmodules</vh></v>
-<v t="yen.20161022132456.1" a="E"><vh>@path .git</vh>
-<v t="yen.20161022132504.1"><vh>@edit config</vh></v>
-</v>
-</v>
-</v>
-<v t="yen.20161022151637.1"><vh>在近端工作模式</vh></v>
-<v t="yen.20161022124416.1"><vh>@button https server</vh></v>
-<v t="yen.20161022151553.1"><vh>產生 .key 與 .crt</vh></v>
-<v t="yen.20161022145129.1"><vh>子模組資料</vh></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -718,62 +705,5 @@ Created by [2016fallcadp_bg4](https://40423206.github.io/2016fallcadp_bg4/blog/)
 @others
 &lt;/section&gt;
 </t>
-<t tx="yen.20161022124416.1">@language python
-import os
-import subprocess
-import threading
-import http.server, ssl
-
-def domake():
-    # build directory
-    os.chdir("./../")
-    server_address = ('localhost', 9443)
-    httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
-    httpd.socket = ssl.wrap_socket(httpd.socket,
-                                   server_side=True,
-                                   certfile='localhost.crt',
-                                   keyfile='localhost.key',
-                                   ssl_version=ssl.PROTOCOL_TLSv1)
-    print("9443 https server started")
-    httpd.serve_forever()
-
-# 利用執行緒執行 https 伺服器
-make = threading.Thread(target=domake)
-make.start()</t>
-<t tx="yen.20161022132258.1"></t>
-<t tx="yen.20161022132307.1"></t>
-<t tx="yen.20161022132456.1"></t>
-<t tx="yen.20161022145129.1">[submodule "g1"]
-	path = g1
-	url = https://github.com/40123252/2016fallcadp_bg1.git
-	branch = gh-pages
-[submodule "g2"]
-	path = g2
-	url = https://github.com/40223205/2016fallcadp_bg2.git
-	branch = gh-pages
-[submodule "g3"]
-	path = g3
-	url = https://github.com/40423201/2016fallcadp_bg03.git
-	branch = gh-pages
-[submodule "g7"]
-	path = g7
-	url = https://github.com/404232077/2016fallcadp_bg07.git
-	branch = gh-pages
-[submodule "g8"]
-	path = g8
-	url = https://github.com/40423208/2016fallcadp_bg8.git
-	branch = gh-pages
-[submodule "g11"]
-	path = g11
-	url = https://github.com/40423234/2016fallcadp_bg11.git
-	branch = gh-pages
-[submodule "g5"]
-	path = g5
-	url = https://github.com/40423205/2016fallcadp_bg5.git
-	branch = gh-pages</t>
-<t tx="yen.20161022151553.1">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
-
-</t>
-<t tx="yen.20161022151637.1">啟動 https://localhost:4443 後可以直接測試</t>
 </tnodes>
 </leo_file>
